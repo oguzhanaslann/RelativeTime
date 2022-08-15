@@ -1,15 +1,15 @@
 # Relative Time #
 This is a simple kotlin based library for calculating Relative time by current time.
 
-| Time title | Returned when                                              |
-|------------|------------------------------------------------------------|
-| YearAgo    | Given date is difference from now is longer than a _year_  |
-| MonthAgo   | Given date is difference from now is longer than a _month_ |
-| WeekAgo    | Given date is difference from now is longer than a _week_  |
-| DayAgo     | Given date is difference from now is longer than a _day_   |
-| HourAgo    | Given date is difference from now is longer than a _hour_  |
-| JustNow    | Given date is same as now                                  |
-| Unknown    | Given date cannot be processed                             |
+| Time title | Returned when                                           |
+|------------|---------------------------------------------------------|
+| YearAgo    | Given date difference from now is longer than a _year_  |
+| MonthAgo   | Given date difference from now is longer than a _month_ |
+| WeekAgo    | Given date difference from now is longer than a _week_  |
+| DayAgo     | Given date difference from now is longer than a _day_   |
+| HourAgo    | Given date difference from now is longer than a _hour_  |
+| JustNow    | Given date is same as now                               |
+| Unknown    | Given date cannot be processed                          |
 ### Be careful ###
 for month differences, 11.x months still counted as a whole year 
 
